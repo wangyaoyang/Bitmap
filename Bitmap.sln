@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bitmap", "Bitmap.vcproj", "{5C8585C1-B6E2-4981-A66E-AAB5777B49E1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BmpViewer", "BmpViewer\BmpViewer.vcproj", "{5459EA85-8B17-451B-91A9-9795FC5F4890}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5C8585C1-B6E2-4981-A66E-AAB5777B49E1}.Debug.ActiveCfg = Debug|Win32
+		{5C8585C1-B6E2-4981-A66E-AAB5777B49E1}.Debug.Build.0 = Debug|Win32
+		{5C8585C1-B6E2-4981-A66E-AAB5777B49E1}.Release.ActiveCfg = Release|Win32
+		{5C8585C1-B6E2-4981-A66E-AAB5777B49E1}.Release.Build.0 = Release|Win32
+		{5459EA85-8B17-451B-91A9-9795FC5F4890}.Debug.ActiveCfg = Debug|Win32
+		{5459EA85-8B17-451B-91A9-9795FC5F4890}.Debug.Build.0 = Debug|Win32
+		{5459EA85-8B17-451B-91A9-9795FC5F4890}.Release.ActiveCfg = Release|Win32
+		{5459EA85-8B17-451B-91A9-9795FC5F4890}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
